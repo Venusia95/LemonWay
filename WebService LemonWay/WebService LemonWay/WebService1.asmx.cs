@@ -25,22 +25,29 @@ namespace WebService_LemonWay
         {
             return "Hello World";
         }
-
+        
         [WebMethod]
-        public int Fibonacci(int n)
+        public long Fibonacci(int n)
         {
-            if (n<=0 || n>100)
+            if (n <= 0 || n > 100)
             {
                 return -1;
             }
-            if (n>=2)
+
+            long w;
+
+            if (n <= 0) return 0;
+            if (n == 1) return 1;
+            long u = 0;
+            long v = 1;
+
+            for (int i = 2; i <= n; i++)
             {
-                return Fibonacci(n - 2) + Fibonacci(n - 1);
-            }
-            else
-            {
-                return n;
-            }
+                w = u + v;
+                u = v;
+                v = w;
+            };
+            return v;
         }
 
 

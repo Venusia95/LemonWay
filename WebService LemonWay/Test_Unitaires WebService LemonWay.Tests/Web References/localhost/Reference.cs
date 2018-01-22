@@ -13,7 +13,7 @@
 // 
 #pragma warning disable 1591
 
-namespace InterfaceAppelWS.localhost {
+namespace Test_Unitaires_WebService_LemonWay.Tests.localhost {
     using System;
     using System.Web.Services;
     using System.Diagnostics;
@@ -31,6 +31,8 @@ namespace InterfaceAppelWS.localhost {
         
         private System.Threading.SendOrPostCallback HelloWorldOperationCompleted;
         
+        private System.Threading.SendOrPostCallback Fibonacci_oldOperationCompleted;
+        
         private System.Threading.SendOrPostCallback FibonacciOperationCompleted;
         
         private System.Threading.SendOrPostCallback XmlToJsonOperationCompleted;
@@ -39,7 +41,7 @@ namespace InterfaceAppelWS.localhost {
         
         /// <remarks/>
         public WebService1() {
-            this.Url = global::InterfaceAppelWS.Properties.Settings.Default.InterfaceAppelWS_localhost_WebService1;
+            this.Url = global::Test_Unitaires_WebService_LemonWay.Tests.Properties.Settings.Default.Test_Unitaires_WebService_LemonWay_Tests_localhost_WebService1;
             if ((this.IsLocalFileSystemWebService(this.Url) == true)) {
                 this.UseDefaultCredentials = true;
                 this.useDefaultCredentialsSetExplicitly = false;
@@ -77,6 +79,9 @@ namespace InterfaceAppelWS.localhost {
         public event HelloWorldCompletedEventHandler HelloWorldCompleted;
         
         /// <remarks/>
+        public event Fibonacci_oldCompletedEventHandler Fibonacci_oldCompleted;
+        
+        /// <remarks/>
         public event FibonacciCompletedEventHandler FibonacciCompleted;
         
         /// <remarks/>
@@ -110,20 +115,49 @@ namespace InterfaceAppelWS.localhost {
         }
         
         /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/Fibonacci_old", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public int Fibonacci_old(int n) {
+            object[] results = this.Invoke("Fibonacci_old", new object[] {
+                        n});
+            return ((int)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void Fibonacci_oldAsync(int n) {
+            this.Fibonacci_oldAsync(n, null);
+        }
+        
+        /// <remarks/>
+        public void Fibonacci_oldAsync(int n, object userState) {
+            if ((this.Fibonacci_oldOperationCompleted == null)) {
+                this.Fibonacci_oldOperationCompleted = new System.Threading.SendOrPostCallback(this.OnFibonacci_oldOperationCompleted);
+            }
+            this.InvokeAsync("Fibonacci_old", new object[] {
+                        n}, this.Fibonacci_oldOperationCompleted, userState);
+        }
+        
+        private void OnFibonacci_oldOperationCompleted(object arg) {
+            if ((this.Fibonacci_oldCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.Fibonacci_oldCompleted(this, new Fibonacci_oldCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/Fibonacci", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public long Fibonacci(int n) {
+        public long Fibonacci(long n) {
             object[] results = this.Invoke("Fibonacci", new object[] {
                         n});
             return ((long)(results[0]));
         }
         
         /// <remarks/>
-        public void FibonacciAsync(int n) {
+        public void FibonacciAsync(long n) {
             this.FibonacciAsync(n, null);
         }
         
         /// <remarks/>
-        public void FibonacciAsync(int n, object userState) {
+        public void FibonacciAsync(long n, object userState) {
             if ((this.FibonacciOperationCompleted == null)) {
                 this.FibonacciOperationCompleted = new System.Threading.SendOrPostCallback(this.OnFibonacciOperationCompleted);
             }
@@ -214,6 +248,32 @@ namespace InterfaceAppelWS.localhost {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    public delegate void Fibonacci_oldCompletedEventHandler(object sender, Fibonacci_oldCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class Fibonacci_oldCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal Fibonacci_oldCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public int Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((int)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
     public delegate void FibonacciCompletedEventHandler(object sender, FibonacciCompletedEventArgs e);
     
     /// <remarks/>
@@ -230,10 +290,10 @@ namespace InterfaceAppelWS.localhost {
         }
         
         /// <remarks/>
-        public int Result {
+        public long Result {
             get {
                 this.RaiseExceptionIfNecessary();
-                return ((int)(this.results[0]));
+                return ((long)(this.results[0]));
             }
         }
     }

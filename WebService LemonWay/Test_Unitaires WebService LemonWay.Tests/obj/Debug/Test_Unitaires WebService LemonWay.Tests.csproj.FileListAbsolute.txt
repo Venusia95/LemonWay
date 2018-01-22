@@ -20,3 +20,26 @@ c:\users\pc_fixe\source\repos\WebService LemonWay\Test_Unitaires WebService Lemo
 c:\users\pc_fixe\source\repos\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Newtonsoft.Json.xml
 c:\users\pc_fixe\source\repos\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\obj\Debug\Test_Unitaires WebService LemonWay.Tests.dll
 c:\users\pc_fixe\source\repos\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\obj\Debug\Test_Unitaires WebService LemonWay.Tests.pdb
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Test_Unitaires WebService LemonWay.Tests.dll.config
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Test_Unitaires WebService LemonWay.Tests.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Test_Unitaires WebService LemonWay.Tests.pdb
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\WebService LemonWay.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\WebService LemonWay.pdb
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\WebService LemonWay.dll.config
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\obj\Debug\Test_Unitaires WebService LemonWay.Tests.csprojResolveAssemblyReference.cache
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\obj\Debug\Test_Unitaires WebService LemonWay.Tests.csproj.CoreCompileInputs.cache
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\obj\Debug\Test_Unitaires WebService LemonWay.Tests.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\Test_Unitaires WebService LemonWay.Tests\obj\Debug\Test_Unitaires WebService LemonWay.Tests.pdb

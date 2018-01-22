@@ -13,3 +13,17 @@ C:\Users\PC_fixe\source\repos\WebService LemonWay\InterfaceAppelWS\bin\Debug\Int
 C:\Users\PC_fixe\source\repos\WebService LemonWay\InterfaceAppelWS\bin\Debug\InterfaceAppelWS.application
 C:\Users\PC_fixe\source\repos\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.exe.manifest
 C:\Users\PC_fixe\source\repos\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.application
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\bin\Debug\InterfaceAppelWS.exe.config
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\bin\Debug\InterfaceAppelWS.exe.manifest
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\bin\Debug\InterfaceAppelWS.application
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\bin\Debug\InterfaceAppelWS.exe
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\bin\Debug\InterfaceAppelWS.pdb
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.Interface.resources
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.Properties.Resources.resources
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.Wait.resources
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.csproj.GenerateResource.Cache
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.csproj.CoreCompileInputs.cache
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.exe.manifest
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.application
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.exe
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.pdb

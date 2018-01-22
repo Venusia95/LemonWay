@@ -22,7 +22,7 @@ namespace InterfaceAppelWS
 
         private void btnFibonancci_Click(object sender, EventArgs e)
         {
-            int resultatFibo;
+            long resultatFibo;
             Form WaitForm = new Wait();
 
             //Affichage de l'écran d'attente
@@ -50,6 +50,7 @@ namespace InterfaceAppelWS
             string saisieNombre = txtNombre.Text;
 
             int conversionFibo;
+
             try
             {
                 //Vérification qu'il s'agit d'un nombre
@@ -69,16 +70,16 @@ namespace InterfaceAppelWS
             WaitForm.Refresh();
 
             //Lancement du WebService
-            conversionFibo = obj.Fibonacci(conversionFibo);
+            long conversionFiboResultat = obj.Fibonacci(conversionFibo);
             WaitForm.Close();
 
             //Affichage du résultat
-            if (conversionFibo == -1)
+            if (conversionFiboResultat == -1)
                 {lblFibo.ForeColor = Color.Red;}
             else
                 {lblFibo.ForeColor = Color.Black; }
 
-            lblFibo.Text = conversionFibo.ToString();
+            lblFibo.Text = conversionFiboResultat.ToString();
 
         }
 
