@@ -1,0 +1,12 @@
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\obj\Debug\WebService LemonWay.csproj.CoreCompileInputs.cache
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\bin\WebService LemonWay.dll.config
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\bin\WebService LemonWay.dll
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\bin\WebService LemonWay.pdb
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\bin\Newtonsoft.Json.dll
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\bin\Newtonsoft.Json.pdb
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\bin\Newtonsoft.Json.xml
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\obj\Debug\WebService LemonWay.dll
+c:\users\pc_fixe\source\repos\WebService LemonWay\WebService LemonWay\obj\Debug\WebService LemonWay.pdb
+C:\Users\PC_fixe\source\repos\WebService LemonWay\WebService LemonWay\obj\Debug\WebService LemonWay.csprojResolveAssemblyReference.cache
