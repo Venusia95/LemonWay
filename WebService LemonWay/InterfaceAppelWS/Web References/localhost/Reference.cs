@@ -20,6 +20,7 @@ namespace InterfaceAppelWS.localhost {
     using System.Web.Services.Protocols;
     using System.Xml.Serialization;
     using System.ComponentModel;
+    using System.Numerics;
     
     
     /// <remarks/>
@@ -111,10 +112,10 @@ namespace InterfaceAppelWS.localhost {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/Fibonacci", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public long Fibonacci(int n) {
+        public string Fibonacci(int n) {
             object[] results = this.Invoke("Fibonacci", new object[] {
                         n});
-            return ((long)(results[0]));
+            return ((string)(results[0]));
         }
         
         /// <remarks/>

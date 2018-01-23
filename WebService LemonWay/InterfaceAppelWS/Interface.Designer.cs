@@ -1,4 +1,5 @@
-﻿namespace InterfaceAppelWS
+﻿using System.Numerics;
+namespace InterfaceAppelWS
 {
     partial class Interface
     {

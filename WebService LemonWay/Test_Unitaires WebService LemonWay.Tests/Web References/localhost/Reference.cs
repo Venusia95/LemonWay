@@ -20,8 +20,8 @@ namespace Test_Unitaires_WebService_LemonWay.Tests.localhost {
     using System.Web.Services.Protocols;
     using System.Xml.Serialization;
     using System.ComponentModel;
-    
-    
+    using System.Numerics;
+
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2556.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -145,19 +145,19 @@ namespace Test_Unitaires_WebService_LemonWay.Tests.localhost {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/Fibonacci", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public long Fibonacci(long n) {
+        public string Fibonacci(int n) {
             object[] results = this.Invoke("Fibonacci", new object[] {
                         n});
-            return ((long)(results[0]));
+            return ((string)(results[0]));
         }
         
         /// <remarks/>
-        public void FibonacciAsync(long n) {
+        public void FibonacciAsync(int n) {
             this.FibonacciAsync(n, null);
         }
         
         /// <remarks/>
-        public void FibonacciAsync(long n, object userState) {
+        public void FibonacciAsync(int n, object userState) {
             if ((this.FibonacciOperationCompleted == null)) {
                 this.FibonacciOperationCompleted = new System.Threading.SendOrPostCallback(this.OnFibonacciOperationCompleted);
             }

@@ -27,3 +27,5 @@ C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\Interface
 C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.application
 C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.exe
 C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.pdb
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\obj\Debug\InterfaceAppelWS.csprojResolveAssemblyReference.cache
+C:\Users\PC_fixe\projet\WebService LemonWay\InterfaceAppelWS\bin\Debug\System.Numerics.dll

@@ -21,3 +21,5 @@ C:\Users\PC_fixe\projet\WebService LemonWay\WebService LemonWay\bin\Newtonsoft.J
 C:\Users\PC_fixe\projet\WebService LemonWay\WebService LemonWay\obj\Debug\WebService LemonWay.csproj.CoreCompileInputs.cache
 C:\Users\PC_fixe\projet\WebService LemonWay\WebService LemonWay\obj\Debug\WebService LemonWay.dll
 C:\Users\PC_fixe\projet\WebService LemonWay\WebService LemonWay\obj\Debug\WebService LemonWay.pdb
+C:\Users\PC_fixe\projet\WebService LemonWay\WebService LemonWay\bin\System.Numerics.dll
+C:\Users\PC_fixe\projet\WebService LemonWay\WebService LemonWay\obj\Debug\WebService LemonWay.csprojResolveAssemblyReference.cache

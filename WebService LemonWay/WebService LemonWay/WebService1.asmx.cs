@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Services;
 using System.Xml;
 using Newtonsoft.Json;// Copyright(c) 2007 James Newton-King
+using System.Numerics;
 
 
 namespace WebService_LemonWay
@@ -27,19 +28,20 @@ namespace WebService_LemonWay
         }
         
         [WebMethod]
-        public long Fibonacci(int n)
+        public string Fibonacci(int n)
         {
             if (n <= 0 || n > 100)
             {
-                return -1;
+                return "-1";
             }
 
-            long w;
+            BigInteger w;
 
-            if (n <= 0) return 0;
-            if (n == 1) return 1;
-            long u = 0;
-            long v = 1;
+            if (n <= 0) return "0";
+            if (n == 1) return "1";
+            BigInteger u = 0;
+            BigInteger v = 1;
+            
 
             for (int i = 2; i <= n; i++)
             {
@@ -47,9 +49,9 @@ namespace WebService_LemonWay
                 u = v;
                 v = w;
             };
-            return v;
+            
+            return v.ToString();
         }
-
 
         [WebMethod]
         public string XmlToJson(string xml)
